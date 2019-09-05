@@ -13,6 +13,7 @@
 		"node": ">=8"
 	},
 	"scripts": {
+		"build": "tsc && babel -d dist",
 		"test": "xo && ava && tsd"
 	},
 	"main": "dist/index.js",
